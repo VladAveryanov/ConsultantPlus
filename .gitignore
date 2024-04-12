@@ -1,0 +1,51 @@
+
+
+# Папки бинарных файлов
+bin/
+obj/
+
+# Манифесты NuGet
+*.nupkg
+*.paket
+
+# Исключаем собранные версии, которые могут быть созданы в процессе сборки
+[Bb]in
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Nn][Yy]/
+
+# Исключаем файлы с расширениями, созданными при сборке проекта
+*.exe
+*.pdb
+*.dll
+*.res
+*.resources
+
+# Игнорируем кэш и временные файлы
+[Tt]humbs.db
+*.log
+*.vscode/
+*.vs/
+*.suo
+*.cache
+*.user
+*.dbmdl
+*.jfm
+*.gpState
+*.sln.docstates
+*.sln.ide
+
+# Прочие временные файлы
+*~
+*$
+*.tmp
+*.pidb
+*.ide
+*.hist
+*.coverage
+
+# Visual Studio автоматически создает этот файл при сборке проекта
+ipch/
