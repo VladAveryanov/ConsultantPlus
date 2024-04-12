@@ -1,4 +1,5 @@
 ﻿using Consultant;
+using Consultant.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace App2
